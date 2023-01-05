@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
 ul,
@@ -23,8 +24,10 @@ ol {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 0px 200px;
+  padding-top: 50px;
 }
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
@@ -36,12 +39,18 @@ nav ul {
 nav li {
   margin-left: 50px;
 }
-
+.header{
+  background: #FFF8F3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
 /* banner part styles */
 .banner {
   display: flex;
   align-items: center;
-  margin: 0 200px;
+  margin-left: 200px;
+  margin-right: 0px;
 }
 .banner-title {
   font-weight: 700;
@@ -58,4 +67,43 @@ nav li {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
+  padding-right: 300px;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section style */
+.about{
+  margin-top: 130px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.about-description{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.info-title{
+  font-size: 20px;
+  color: #757575;
+}
+.info-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
 }
