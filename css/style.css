@@ -202,3 +202,6 @@ margin: 20px 0;
 .contact-info a{
   margin-right: 10px;
 }
+.hide{
+  display: none;
+}
