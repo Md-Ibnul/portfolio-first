@@ -5,7 +5,7 @@
         align-items: center;
       }
       .about, .contact {
-        margin-top: 50px;
+        margin-top: 0px;
         padding: 20px;
     }
     .what-i-do {
@@ -41,11 +41,27 @@
     }
     .banner img{
         width: 100%;
-        grid-template-rows: ;
+        margin-top: 10px;
     }
+    .banner-title {
+      font-size: 54px;
+  }
+  .banner-subtitle {
+    margin-bottom: 0px;
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  nav {
+    padding: 50px 85px;
+}
+.banner {
+  flex-direction: column;
+}
+  .banner img{
+    width: 100%;
+    margin-top: 10px;
+}
     .skills-container, .resume-content, .contact{
         padding: 0 20px;
     }
